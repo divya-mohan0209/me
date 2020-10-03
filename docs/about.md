@@ -3,30 +3,23 @@ id: about
 title: About
 ---
 
-You can start your "About" page with an elevator pitch, one or two
-sentences about you! The rest of this page page can
-include a little bit about yourself. Some things you
-might include:
+A self-confessed bookworm with a voracious appetite for tinkering, I am forever on the lookout for new things to learn. A recently inducted FOSS enthusiast, I am happy to serve Kubernetes, LitmusChaos, & Ortelius in reconciling the documentation, policies, & strategies to keep up with the ever-evolving nature of these projects. Technical documentation is a cause I'm passionate about. As a part of this year's Google Season of Docs, I'm working with CERN-HSF to restructure & modernize the documentation for Rucio, the data management system powering the ATLAS & CMS experiments on the LHC.
 
-1. Your current position
-1. Organizations you're involved with
-1. Your personal and professional values
-1. Hobbies or fun facts
-
-Write it in first (I) or third (Your Name Here) person.
-
-> Don't know what to write? Get a good friend to help! Set some time aside to soundboard.
 
 ## Current Role
 
-Grace Hopper Celebration Attendee
+Senior Systems Administrator at HSBC
 
 ## Recognition
 
-- 2020 Awesome Woman in Technology Award
+- AWS Community Builder
+- Technologist of the quarter Q2 (2020), HSBC
+- Technologist of the quarter Q4 (2019), HSBC
+- Rise Star Q4 (2017), HSBC
+- Support Star (2017-18), HSBC
 
 ## Social Media
 
-- Twitter
-- LinkedIn
-- GitHub
+- [Twitter] (https://twitter.com/Divya_Mohan02)
+- [LinkedIn] (https://www.linkedin.com/in/divya-mohan0209/)
+- [GitHub] (https://github.com/divya-mohan0209)

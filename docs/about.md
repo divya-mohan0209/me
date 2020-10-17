@@ -19,7 +19,7 @@ One cause that I'm very passionate about is great technical documentation (becau
 
 As part of the Google Season of Docs this year, I am also working with **CERN-HSF** to better documentation for their Data Management System, [**Rucio**](http://rucio.cern.ch/). In my spare time, I love reading, writing, and co-parenting a cat who's almost as curious as I am. I'm always learning something new & tinkering with things (often leading to mishaps like broken keyboards & laptops that refuse to switch on) & am happy to [chat](https://calendly.com/divya-mohan0209) about it.
 
-I love helping people learn from my mistakes, so I'd be more than happy to speak at your event. You can find more details about that on my [Projects page](projects). Feel free to [email me](mailto:divya.mohan0209@gmail.com).
+I love helping people learn from my mistakes, so I'd be more than happy to speak at your event. You can find more about that on my [Projects page](projects). Feel free to [email me](mailto:divya.mohan0209@gmail.com) with details, if you think I'd be a good fit.
 
 ## Social Media
 

@@ -20,6 +20,6 @@ Senior Systems Administrator at HSBC
 
 ## Social Media
 
-- [Twitter] (https://twitter.com/Divya_Mohan02)
-- [LinkedIn] (https://www.linkedin.com/in/divya-mohan0209/)
-- [GitHub] (https://github.com/divya-mohan0209)
+- [Twitter](https://twitter.com/Divya_Mohan02)
+- [LinkedIn](https://www.linkedin.com/in/divya-mohan0209/)
+- [GitHub](https://github.com/divya-mohan0209)

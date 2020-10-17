@@ -45,4 +45,4 @@ I am truly grateful for the opportunities I have been given to share knowledge a
 
 Here's the [GitHub link](https://github.com/divya-mohan0209/talks) with the presentations & video links updated of talks I have delivered so far.
 
-While I'm happy to speak at your event, I want to ensure I'm using the platform I'm being given conscientiously. Therefore, I'd request you to read the [Speaker Rider](https://github.com/divya-mohan0209/talks/blob/main/speaker-rider.md) before reaching out!
+While I'm happy to speak at your event, I want to ensure I'm using the platform given to me conscientiously. Therefore, I'd request you to read the [Speaker Rider](https://github.com/divya-mohan0209/talks/blob/main/speaker-rider.md) before reaching out!

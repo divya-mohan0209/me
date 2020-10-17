@@ -21,7 +21,7 @@ jobs:
         yarn build
     - name: Push to Github Pages branch
       run: |
-        cd website/build/tech-portfolio
+        cd website/build/me
         touch .nojekyll
         GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} INPUT_DIRECTORY=$(pwd) publish.sh
         

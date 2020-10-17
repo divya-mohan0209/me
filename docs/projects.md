@@ -3,12 +3,42 @@ id: projects
 title: Projects
 ---
 
-Embed any notable projects in this page.
+I am a huge fan of figuring out how things work by tearing them down & rebuilding them from scratch.
 
-For example, my favorite project would be linked and I can even embed
-a screenshot or GIF to show it.
+Below are some of the interesting projects - Personal and Open Source, that I have been working on this year.
 
-You can list [links](https://www.hashicorp.com/resources/test-driven-development-tdd-for-infrastructure)
-or even embed images with the following Markdown:
+- [Modernizing & Restructuring Documentation for Rucio](https://developers.google.com/season-of-docs/docs/participants/project-cernhsf-ariadne)
 
-![Add alternate text for image](./assets/rosemary.png)
+**Languages**:
+
+- Javascript
+- HTML
+- CSS
+
+**Tools**:
+
+- Docusaurus
+- Sphinx
+- Github Markdown
+
+- [Interactive Chatbot using Landbot](https://bit.ly/2O5OL8G)
+
+**Tools**:
+
+- Landbot
+
+- [Twitter Bot using Tweepy](https://github.com/divya-mohan0209/python-twitter-bot)
+
+**Languages**:
+
+- Python
+
+**Tools**
+
+- Tweepy
+
+I love public speaking & am grateful for privilege to share knowledge about the things I've worked on/am working on.
+
+Here's the [GitHub link](https://github.com/divya-mohan0209/talks) with the presentations & video links updated of talks I have delivered so far.
+
+If you do want me to speak at your events, please read the [Speaker Rider](https://github.com/divya-mohan0209/talks/blob/main/speaker-rider.md) before reaching out!

@@ -59,33 +59,34 @@ class HomeSplash extends React.Component {
     );
 
     return (
-      <SplashContainer>
+        <SplashContainer>
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
-                <div class="content-slider">
-                 <div class="slider">
-                  <div class="mask">
-                   <ul>
-                    <li class="anim1">
-                     <div class="quote">Inquisitive learner</div>
-                    </li>
-                   <li class="anim2">
-                    <div class="quote">Aspiring polymath</div>
-                   </li>
-                   <li class="anim3">
-                    <div class="quote">Curious tinkerer</div>
-                   </li>
-                  </ul>
-                 </div>
-               </div>
-             </div>
-          </PromoSection>
+            <PromoSection>
+            <div class="content-slider">
+                <div class="slider">
+                    <div class="mask">
+                        <ul>
+                            <li class="anim1">
+                                <div class="quote">Inquisitive learner</div>
+                            </li>
+                            <li class="anim2">
+                                <div class="quote">Aspiring polymath</div>
+                            </li>
+                            <li class="anim3">
+                                <div class="quote">Curious tinkerer</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </PromoSection>
         </div>
       </SplashContainer>
     );
-  }
+   }
 }
+       
 
 class Index extends React.Component {
   render() {

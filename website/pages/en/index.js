@@ -63,9 +63,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
             <PromoSection>
-            <div class="content-slider">
-                <div class="slider">
-                    <div class="mask">
+            <div className="content-slider">
+                <div className="slider">
+                    <div className="mask">
                         <ul>
                             <li class="anim1">
                                 <div class="quote">Inquisitive learner</div>

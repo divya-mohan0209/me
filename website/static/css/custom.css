@@ -35,7 +35,7 @@ a {
   height: 360px;
 }
 
-.content-slider .slider {
+.inner .content-slider .slider {
   height: 320px;
   width: 680px;
   margin: 40px auto 0;
@@ -43,18 +43,18 @@ a {
   position: relative;
 }
 
-.slider .mask {
+.inner .content-slider .slider .mask {
   overflow: hidden;
   height: 320px;
 }
 
-.slider ul {
+.inner .content-slider .slider .mask ul {
   margin: 0;
   padding: 0;
   position: relative;
 }
 
-.slider li {
+.inner .content-slider .slider .mask ul li {
   width: 680px;
   height: 320px;
   position: absolute;
@@ -62,20 +62,20 @@ a {
   list-style: none;
 }
 
-.slider .quote {
+.inner .content-slider .slider .mask ul li .quote {
   font-size: 40px;
   font-style: italic;
 }
 
 
-.slider li.anim1 {
+.inner .content-slider .slider .mask ul li.anim1 {
   animation: cycle 15s linear infinite;
 }
 
-.slider li.anim2 {
+.inner .content-slider .slider .mask ul li.anim2 {
   animation: cycle2 15s linear infinite;
 }
 
-.slider li.anim3 {
+.inner .content-slider .slider .mask ul li.anim3 {
   animation: cycle3 15s linear infinite;
 }

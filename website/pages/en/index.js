@@ -62,6 +62,7 @@ class HomeSplash extends React.Component {
         <SplashContainer>
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} />
+            <PromoSection>
             <div className="content-slider">
                 <div className="slider">
                     <div className="mask">
@@ -79,6 +80,7 @@ class HomeSplash extends React.Component {
                     </div>
                 </div>
             </div>
+            </PromoSection>
         </div>
       </SplashContainer>
     );

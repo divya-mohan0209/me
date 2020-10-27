@@ -85,7 +85,7 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <MarkdownBlock>Rucio is an open-source software framework that provides scientiﬁc collaborations with the functionality to organize, man-age, and access their data at scale. The project is hosted by CERN-HSF</MarkdownBlock>
+        <MarkdownBlock>Hiya there! My name is Divya & I'm a Senior Systems Administrator at HSBC. I am a frequent contributor to several Open source projects, in addition to which I enjoy reading books & playing with my cat.</MarkdownBlock>
       </div>
     );
 
@@ -129,5 +129,18 @@ class Index extends React.Component {
             <img src={user.image} alt={user.caption} title={user.caption} />
           </a>
         ));
+    
+return (
+      <div>
+        <HomeSplash siteConfig={siteConfig} language={language} />
+        <div className="mainContainer">
+          <FeatureCallout />
+          <Features />
+          <Showcase />
+        </div>
+      </div>
+    );
+  }
+}
 
 module.exports = Index;

@@ -61,26 +61,7 @@ class HomeSplash extends React.Component {
     return (
         <SplashContainer>
         <div className="inner">
-          <ProjectTitle tagline={siteConfig.tagline} />
-            <PromoSection>
-            <div className="content-slider">
-                <div className="slider">
-                    <div className="mask">
-                        <ul>
-                            <li className="anim1">
-                                <div className="quote">Inquisitive learner</div>
-                            </li>
-                            <li className="anim2">
-                                <div className="quote">Aspiring polymath</div>
-                            </li>
-                            <li className="anim3">
-                                <div className="quote">Tinkerer</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            </PromoSection>
+          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
         </div>
       </SplashContainer>
     );
@@ -99,5 +80,54 @@ class Index extends React.Component {
     );
   }
 }
+
+    const FeatureCallout = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <MarkdownBlock>Rucio is an open-source software framework that provides scientiﬁc collaborations with the functionality to organize, man-age, and access their data at scale. The project is hosted by CERN-HSF</MarkdownBlock>
+      </div>
+    );
+
+    const Features = () => (
+      <Block layout="twoColumn">
+        {[
+          {
+            content: 'On the premier cohort for AWS Community Builders 2020. Read more about some of the community-driven projects that I am part of.',
+            image: `${baseUrl}img/large-badge.png`,
+            imageAlign: 'top',
+            imageLink: siteConfig.baseUrl + 'docs/about',
+            title: 'AWS Community Builder 2020',
+          },
+          {
+            content: 'The best way to learn is by doing. Here's a not-so-exhaustive list of projects I've been working on.',
+            image: `${baseUrl}img/CERN-HSF-GSdocs-logo.png`,
+            imageAlign: 'top',
+            imageLink: siteConfig.baseUrl + 'docs/projects',
+            title: 'Cool stuff I've been working on',
+          },
+          {
+            content: 'I love learning & writing/speaking about them. Links to my conference talks/blogposts available here.',
+            image: `${baseUrl}img/read.jpg`,
+            imageAlign: 'top',
+            imageLink: siteConfig.baseUrl + 'blog',
+            title: 'What I'm learning',
+          },
+        ]}
+      </Block>
+    );
+
+    const Showcase = () => {
+      if ((siteConfig.users || []).length === 0) {
+        return null;
+      }
+
+      const showcase = siteConfig.users
+        .filter((user) => user.pinned)
+        .map((user) => (
+          <a href={user.infoLink} key={user.infoLink}>
+            <img src={user.image} alt={user.caption} title={user.caption} />
+          </a>
+        ));
 
 module.exports = Index;
